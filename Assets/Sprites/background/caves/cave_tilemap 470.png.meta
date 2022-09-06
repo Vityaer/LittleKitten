@@ -1,0 +1,1813 @@
+fileFormatVersion: 2
+guid: ead4f366c09d3f944829a370315a83dd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 235
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cave_tilemap 470_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3861
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b67298d2e871054b924445e948eeafd
+      internalID: 1498670857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 3861
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22afcce2df416ca408b38179d087d81c
+      internalID: -349343918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3861
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d746c9d7fafc34f469fa8d9b0bdb65b3
+      internalID: 1355948536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_3
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 3861
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e74b3f714359d44abbedb911459c64
+      internalID: 332203691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_4
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3861
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84218d60b9868fc488e0b9aeba42f315
+      internalID: -442403784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_5
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 3861
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb669b409261bf40a094237d410357f
+      internalID: -1979517511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_6
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 3861
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3d550cf3c3461498927ed981a7587a
+      internalID: 2092344440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_7
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 3861
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04618a76cd45c24a983b18ec6ebdb26
+      internalID: 82042255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3626
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc270cb5997e0b84dab67528b1967494
+      internalID: -1253297182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_17
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3626
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ce56f3cc3223640b967cb9f9bb7010
+      internalID: 671682019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_18
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 3626
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ca24cb17fbbb547be62b4c54fe53d0
+      internalID: 1768483313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_19
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3626
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d8130e3649b6d40a4c210587c180eb
+      internalID: -1656264055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_20
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 3626
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322b7e7e3fbc2a9438be27d63d72dbb3
+      internalID: 475155496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_21
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 3626
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4aa9c12662a3cf479a0c1367cf904a4
+      internalID: -1840298019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3391
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996052a53f70ba140b4b0fb614107da2
+      internalID: -1506916489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_32
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3391
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2098112911a5344b8dacb2d3339f600
+      internalID: -1520527486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_33
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 3391
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e211ee68dd7450a4f9af2a2a701b48d5
+      internalID: 550133207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_34
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3391
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b542ab85cb8396c47a3f384f6a759cfe
+      internalID: 293439814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_35
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 3391
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0d229b091f2c548ae9c4588a0c0bdd
+      internalID: -76642124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3156
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5366dba5c8d75ec429ec26e4243a173c
+      internalID: -1050712883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_48
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 3156
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fbc51410af478479b8ad5fe0664dba
+      internalID: 40066044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_51
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3156
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade3deb34cf06c74690af18a4faf226c
+      internalID: -289695908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_52
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 3156
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1953c3cb29e76844a16d77ec99fc744
+      internalID: 1403686417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2921
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583dcd8f66097e64d928092c5c58065c
+      internalID: -1789336981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_68
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2921
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fef186accc8f64bb32b548a1295e8c
+      internalID: -626307951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_70
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2921
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebdde911d710e843984882e87fee3d9
+      internalID: 1153823813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_71
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 2921
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef8f170698f1df44918e55046aec410
+      internalID: 234032154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_72
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 2921
+        width: 470
+        height: 705
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f0837293290ce409fff8ffa028d96f
+      internalID: 1549800266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_74
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2921
+        width: 470
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5123eb577ca93214792c2e7d45b3a853
+      internalID: 1470413281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_76
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2921
+        width: 470
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745132f51b100c24fa2494c27d633733
+      internalID: -2095562242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_78
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 2921
+        width: 470
+        height: 1175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fc609a3fdf0df4fb87f6094862dbab
+      internalID: 1419394551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_80
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 2921
+        width: 470
+        height: 1175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255c5aa1ef3decd4ab740b894c897858
+      internalID: 626197410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2686
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195512a5f6601c74fbcbafbbb09ccd94
+      internalID: 1652840122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_87
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2686
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f546727fa466444b3d4fad4d945061
+      internalID: 1432893190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_90
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2686
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affc23362e070fe4da7f85e295689211
+      internalID: 706463808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_91
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 2686
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97646b151f69c9045bca2081b77e2003
+      internalID: -1719894586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2451
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff8e59b0dae0264ea9a1f76a90c0dd9
+      internalID: -163935424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_100
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2451
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4333ddc4cbf6584bab5c85b9d47983d
+      internalID: -1661519709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_101
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2451
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7763b7dcf89e0448964428114403f7
+      internalID: -1463772923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_103
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2451
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600dfe877d11a214487d666defb43082
+      internalID: -906555725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_104
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 2451
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e331ec15ce94048821159f40ba8b3a
+      internalID: -374473482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2216
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f185399280fda4380b2dbd4c8dab66
+      internalID: -375508402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_116
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2216
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de23a8fe65963b4cb9976a3b3c2910f
+      internalID: 1898256041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_119
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2216
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21802631b2fb3754bafe86db7203128c
+      internalID: -1905628023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_120
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 2216
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9613e3baa9d16354da2f9ab4cad4df9c
+      internalID: -277694214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_121
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 2216
+        width: 470
+        height: 705
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1f7eb88caae704388ed1dcb5379050
+      internalID: 914665191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_123
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2216
+        width: 470
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a277d54e5535b41a9e18259906c745
+      internalID: -221140873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_125
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2216
+        width: 470
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f51e211a6eff8498255dee1fc90ef8
+      internalID: -361237823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_129
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 2216
+        width: 470
+        height: 1880
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6dd239597193b45b510c3cc575f452
+      internalID: 787274629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_131
+      rect:
+        serializedVersion: 2
+        x: 4230
+        y: 2216
+        width: 470
+        height: 1880
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195848d750e1cef41978d0a12189013c
+      internalID: 1951393991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1981
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e75ca25d785e141856e1a56a5761e9
+      internalID: -817987790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_134
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1981
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62336d2883e0170458a6b9b580db1274
+      internalID: -2076685289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_135
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1981
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2422a2ccd94c3c4aa47ae84f6e3fa44
+      internalID: 1463810870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_137
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1981
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca519141d1223d45bad740d1534288d
+      internalID: -211968516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_138
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1981
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9d7b0d3bafaca4699214e9f350d13c
+      internalID: -2110933701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_143
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 1981
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc8b8635647f084d9e99920a8e405d0
+      internalID: -424738861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_145
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 518
+        width: 1544
+        height: 1520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4d75c52fcea2a49b0d4a139969c875
+      internalID: 678947587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_149
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1746
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4a07e19a2acde48a1397d4f2036ace
+      internalID: -1412974759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_150
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1746
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2b284e817af0b4b85377ad0025529d
+      internalID: -1565520901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_151
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1746
+        width: 470
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea238082697be24694d6a7374ab240d
+      internalID: 41763333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_153
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1746
+        width: 470
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb28ee9ef6129441b588c694b5aaff5
+      internalID: 579539794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_161
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1511
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78e79cea5f0c4a41a6fd5bce178fa8c
+      internalID: 172408139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_162
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1511
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9eed9d99ceefd4a955b9bd16175610
+      internalID: -522369135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_177
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1276
+        width: 470
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020dfec991644734595a4420da089aed
+      internalID: 778918173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_179
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1276
+        width: 470
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548797a31a914e74e81b75445f173bd3
+      internalID: 186105123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_181
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 1276
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d7d7e748ae6044ca12a8f9351ce818
+      internalID: -1092449292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_8
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 3626
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bde0acc585b53c40af87bbc9494effa
+      internalID: -459707633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_9
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 1746
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c9a1109f099484fa48e16f6a73c2a1
+      internalID: -1494357394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_10
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 806
+        width: 470
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a317e6609f0dff48817dc8bb00ae75d
+      internalID: 1499413186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave_tilemap 470_11
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 806
+        width: 470
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c0171fdb46fab49bcd298710bd2086
+      internalID: 1122127494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cave_tilemap 470_101: -1463772923
+      cave_tilemap 470_121: 914665191
+      cave_tilemap 470_188: -757802100
+      cave_tilemap 470_128: 443365536
+      cave_tilemap 470_80: 626197410
+      cave_tilemap 470_162: -522369135
+      cave_tilemap 470_86: 1652840122
+      cave_tilemap 470_43: -577547503
+      cave_tilemap 470_151: 41763333
+      cave_tilemap 470_139: 977955666
+      cave_tilemap 470_166: -783200147
+      cave_tilemap 470_10: 1499413186
+      cave_tilemap 470_23: -1786312847
+      cave_tilemap 470_24: -2084370140
+      cave_tilemap 470_165: -789648835
+      cave_tilemap 470_67: -1789336981
+      cave_tilemap 470_37: -1268692458
+      cave_tilemap 470_182: 427014829
+      cave_tilemap 470_215: -156749437
+      cave_tilemap 470_18: 1768483313
+      cave_tilemap 470_51: -289695908
+      cave_tilemap 470_28: 927267504
+      cave_tilemap 470_173: 1046015299
+      cave_tilemap 470_180: -1342238136
+      cave_tilemap 470_199: -1833100020
+      cave_tilemap 470_219: -595399905
+      cave_tilemap 470_205: 419103700
+      cave_tilemap 470_54: 2014684147
+      cave_tilemap 470_179: 186105123
+      cave_tilemap 470_158: 552901213
+      cave_tilemap 470_196: -1692052408
+      cave_tilemap 470_76: -2095562242
+      cave_tilemap 470_91: -1719894586
+      cave_tilemap 470_73: 90262933
+      cave_tilemap 470_150: -1565520901
+      cave_tilemap 470_204: -983219799
+      cave_tilemap 470_203: -1194934640
+      cave_tilemap 470_42: 1129870403
+      cave_tilemap 470_12: 1560788103
+      cave_tilemap 470_125: -361237823
+      cave_tilemap 470_94: -196862677
+      cave_tilemap 470_129: 787274629
+      cave_tilemap 470_38: 1252421657
+      cave_tilemap 470_77: 1703583383
+      cave_tilemap 470_75: 1118641390
+      cave_tilemap 470_218: 1328204884
+      cave_tilemap 470_65: 553022438
+      cave_tilemap 470_44: 232977088
+      cave_tilemap 470_186: -60301767
+      cave_tilemap 470_41: -1395877229
+      cave_tilemap 470_123: -221140873
+      cave_tilemap 470_48: 40066044
+      cave_tilemap 470_29: -1699301721
+      cave_tilemap 470_49: -900396277
+      cave_tilemap 470_153: 579539794
+      cave_tilemap 470_1: -349343918
+      cave_tilemap 470_7: 82042255
+      cave_tilemap 470_6: 2092344440
+      cave_tilemap 470_167: 1862104227
+      cave_tilemap 470_143: -424738861
+      cave_tilemap 470_214: -2013403460
+      cave_tilemap 470_122: 2123695352
+      cave_tilemap 470_154: -2099486037
+      cave_tilemap 470_202: 198108560
+      cave_tilemap 470_113: -1944363611
+      cave_tilemap 470_149: -1412974759
+      cave_tilemap 470_2: 1355948536
+      cave_tilemap 470_3: 332203691
+      cave_tilemap 470_52: 1403686417
+      cave_tilemap 470_17: 671682019
+      cave_tilemap 470_58: -40590848
+      cave_tilemap 470_59: 311960353
+      cave_tilemap 470_111: 102620393
+      cave_tilemap 470_88: 2052520194
+      cave_tilemap 470_187: 960101561
+      cave_tilemap 470_102: 250914675
+      cave_tilemap 470_57: -1313141642
+      cave_tilemap 470_83: 1426415791
+      cave_tilemap 470_78: 1419394551
+      cave_tilemap 470_181: -1092449292
+      cave_tilemap 470_14: -945551251
+      cave_tilemap 470_0: 1498670857
+      cave_tilemap 470_137: -211968516
+      cave_tilemap 470_20: 475155496
+      cave_tilemap 470_124: 242823753
+      cave_tilemap 470_140: -88380296
+      cave_tilemap 470_132: 1746474235
+      cave_tilemap 470_193: -904850804
+      cave_tilemap 470_159: 1064432104
+      cave_tilemap 470_40: -407257467
+      cave_tilemap 470_32: -1520527486
+      cave_tilemap 470_157: -191789487
+      cave_tilemap 470_145: 678947587
+      cave_tilemap 470_133: -817987790
+      cave_tilemap 470_100: -1661519709
+      cave_tilemap 470_211: -610051355
+      cave_tilemap 470_63: -750185589
+      cave_tilemap 470_98: 92695746
+      cave_tilemap 470_213: 1362368854
+      cave_tilemap 470_61: -1771943227
+      cave_tilemap 470_170: -927079245
+      cave_tilemap 470_175: 328132472
+      cave_tilemap 470_114: 350332357
+      cave_tilemap 470_206: 1734981791
+      cave_tilemap 470_22: 1406988048
+      cave_tilemap 470_168: -109354182
+      cave_tilemap 470_9: -1494357394
+      cave_tilemap 470_69: -1381610727
+      cave_tilemap 470_191: -980322313
+      cave_tilemap 470_220: 1600772603
+      cave_tilemap 470_31: -1506916489
+      cave_tilemap 470_55: 525072055
+      cave_tilemap 470_68: -626307951
+      cave_tilemap 470_71: 234032154
+      cave_tilemap 470_97: -93025340
+      cave_tilemap 470_92: 404728182
+      cave_tilemap 470_104: -374473482
+      cave_tilemap 470_25: 1768895275
+      cave_tilemap 470_64: 821431357
+      cave_tilemap 470_169: -1233642344
+      cave_tilemap 470_115: -375508402
+      cave_tilemap 470_66: 1305838095
+      cave_tilemap 470_4: -442403784
+      cave_tilemap 470_136: -655775856
+      cave_tilemap 470_130: 668386932
+      cave_tilemap 470_16: -1253297182
+      cave_tilemap 470_171: -1306182199
+      cave_tilemap 470_8: -459707633
+      cave_tilemap 470_118: 963797087
+      cave_tilemap 470_209: 1771361666
+      cave_tilemap 470_89: 344843037
+      cave_tilemap 470_134: -2076685289
+      cave_tilemap 470_109: -999128692
+      cave_tilemap 470_112: 1495053763
+      cave_tilemap 470_50: -145899847
+      cave_tilemap 470_79: -309997156
+      cave_tilemap 470_110: -538475316
+      cave_tilemap 470_35: -76642124
+      cave_tilemap 470_62: -386873889
+      cave_tilemap 470_90: 706463808
+      cave_tilemap 470_190: -1483877984
+      cave_tilemap 470_178: 1423455182
+      cave_tilemap 470_96: -1070200731
+      cave_tilemap 470_152: -1484655404
+      cave_tilemap 470_74: 1470413281
+      cave_tilemap 470_19: -1656264055
+      cave_tilemap 470_207: 722959450
+      cave_tilemap 470_185: 588340074
+      cave_tilemap 470_85: -142496547
+      cave_tilemap 470_216: 95152489
+      cave_tilemap 470_21: -1840298019
+      cave_tilemap 470_201: -319896319
+      cave_tilemap 470_198: 732840256
+      cave_tilemap 470_210: 1830914212
+      cave_tilemap 470_81: 197048206
+      cave_tilemap 470_189: -922556735
+      cave_tilemap 470_103: -906555725
+      cave_tilemap 470_26: -969517689
+      cave_tilemap 470_72: 1549800266
+      cave_tilemap 470_197: 245672457
+      cave_tilemap 470_60: -1554595211
+      cave_tilemap 470_82: 1002136443
+      cave_tilemap 470_53: 1246621024
+      cave_tilemap 470_141: 1971451860
+      cave_tilemap 470_217: -1878646014
+      cave_tilemap 470_11: 1122127494
+      cave_tilemap 470_195: -1851937512
+      cave_tilemap 470_163: 1994178493
+      cave_tilemap 470_160: 1422601269
+      cave_tilemap 470_138: -2110933701
+      cave_tilemap 470_144: -2104938586
+      cave_tilemap 470_177: 778918173
+      cave_tilemap 470_105: 1945861919
+      cave_tilemap 470_194: 642799024
+      cave_tilemap 470_34: 293439814
+      cave_tilemap 470_87: 1432893190
+      cave_tilemap 470_164: -1555262130
+      cave_tilemap 470_39: 845401038
+      cave_tilemap 470_146: 594413734
+      cave_tilemap 470_107: 1071409495
+      cave_tilemap 470_13: 218109065
+      cave_tilemap 470_15: 659395999
+      cave_tilemap 470_119: -1905628023
+      cave_tilemap 470_155: -1440348691
+      cave_tilemap 470_126: -2098403575
+      cave_tilemap 470_142: -7448752
+      cave_tilemap 470_200: 535003206
+      cave_tilemap 470_148: -1838601246
+      cave_tilemap 470_212: 1135553387
+      cave_tilemap 470_47: -1050712883
+      cave_tilemap 470_30: -124537753
+      cave_tilemap 470_172: 1507687128
+      cave_tilemap 470_156: 838845839
+      cave_tilemap 470_147: -1226415275
+      cave_tilemap 470_46: -1585596644
+      cave_tilemap 470_161: 172408139
+      cave_tilemap 470_106: 2025416652
+      cave_tilemap 470_184: -1076846430
+      cave_tilemap 470_33: 550133207
+      cave_tilemap 470_56: -1449208437
+      cave_tilemap 470_176: -318090324
+      cave_tilemap 470_36: -1672523468
+      cave_tilemap 470_108: 1969723559
+      cave_tilemap 470_70: 1153823813
+      cave_tilemap 470_116: 1898256041
+      cave_tilemap 470_131: 1951393991
+      cave_tilemap 470_5: -1979517511
+      cave_tilemap 470_135: 1463810870
+      cave_tilemap 470_192: -1887428134
+      cave_tilemap 470_93: 1070420908
+      cave_tilemap 470_183: -1644827339
+      cave_tilemap 470_208: 1176712859
+      cave_tilemap 470_117: -482633427
+      cave_tilemap 470_95: 374060623
+      cave_tilemap 470_127: 1064701249
+      cave_tilemap 470_84: -1603624461
+      cave_tilemap 470_120: -277694214
+      cave_tilemap 470_27: 1707741090
+      cave_tilemap 470_174: 862835861
+      cave_tilemap 470_45: 2039596131
+      cave_tilemap 470_99: -163935424
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
