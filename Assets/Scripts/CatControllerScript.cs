@@ -7,14 +7,18 @@ public class CatControllerScript : MonoBehaviour{
 	private Transform tr;
 	private Rigidbody2D rb;
 	private Animator anim;
-    [Header("Move")]
-    public float SpeedWalk = 1.5f;
+    [Header("Move on ground")]
     public float timeForRun = 1f;	
+    public float SpeedWalk = 1.5f;
     public float SpeedRun = 3f;
+    public float TimeForChangeSpeedFromWalkToRun = 0.5f;
 	public float SpeedOnLadder = 1f;
-    public float SpeedVerticalSwim = 1f;
 	public float PowerJump = 9f;
     public Transform groundCheck;
+    [Header("Move in water")]
+    public float PowerJumpInWater = 6f;
+    public Vector2 SpeedSwim = new Vector2(3f, 3f);
+    private bool swimFlag = false; 
     
     private bool grounded = true;
 	private bool isFacingRight = true;
@@ -22,7 +26,6 @@ public class CatControllerScript : MonoBehaviour{
     public LayerMask whatIsGround;
     Vector2 jumpVector = Vector2.zero, moveVector = Vector2.zero;
     private bool speedFlag = false;
-    [SerializeField] private bool swimFlag = false; 
 
 	private float horizontalSpeed = 0f,verticalSpeed = 0f;
     private Vector3 upLadder, downLadder, ladderPos;
@@ -45,22 +48,21 @@ public class CatControllerScript : MonoBehaviour{
     	GroundCheck();
     	if(Input.GetKeyDown(KeyCode.A)){
 			if(isFacingRight == true) Flip();
-            speedFlag = false;
     	}
     	if(Input.GetKeyDown(KeyCode.D)){
 			if(isFacingRight == false) Flip();
-            speedFlag = false;
     	}
     	if(Input.GetKey(KeyCode.A)){
-            moveVector.x = -horizontalSpeed;
+            moveVector.x = swimFlag ? -SpeedSwim.x : -horizontalSpeed;
             speedFlag = true;
 		}
         if(Input.GetKey(KeyCode.D)){
-            moveVector.x = horizontalSpeed;
+            moveVector.x = swimFlag ? SpeedSwim.x : horizontalSpeed;
             speedFlag = true;
         }
     	if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D)){
             moveVector.x = 0f;
+            speedFlag = false;
         }
         wMove();
         if ((grounded || swimFlag) && Input.GetKeyDown(KeyCode.Space)){
@@ -139,11 +141,11 @@ public class CatControllerScript : MonoBehaviour{
         while(swimFlag){
             if(Input.GetKey(KeyCode.LeftShift)){
                 if(Input.GetKey(KeyCode.S)){
-                    moveVector.y = -SpeedVerticalSwim;
+                    moveVector.y = -SpeedSwim.y;
                     rb.velocity = moveVector;
                 }
                 if(Input.GetKey(KeyCode.W)){
-                    moveVector.y = SpeedVerticalSwim;
+                    moveVector.y = SpeedSwim.y;
                     rb.velocity = moveVector;
                 }
             }
@@ -154,7 +156,7 @@ public class CatControllerScript : MonoBehaviour{
 	[Header("Inaction")]
 	public float timeForAnimInaction = 3f;
     Coroutine coroutineInaction = null;
-	bool statusInaction = false;
+	bool statusInaction = true;
 	void StartStatusInaction(){
         if(coroutineChangeSpeed != null)
             StopCoroutine(coroutineChangeSpeed);
@@ -169,9 +171,10 @@ public class CatControllerScript : MonoBehaviour{
 		while(inGame){
 			if((speedFlag == false) && (grounded == true)){
 				timerInaction -= Time.deltaTime;
-				if(timerInaction <= 0f) StartStatusInaction(); 
+				if(timerInaction <= 0f) if(statusInaction == false) StartStatusInaction(); 
 			}else{
 				timerInaction = timeForAnimInaction;
+				statusInaction = true;
 			}
 			yield return null;
 		}
@@ -259,11 +262,11 @@ public class CatControllerScript : MonoBehaviour{
             }else{
                 timerForRun = timeForRun;
                 horizontalSpeed = SpeedWalk;
+		        anim.SetInteger("VelocitySpeed", 1);
             }
             yield return null;
         }
     }
-    public float TimeForChangeSpeedFromWalkToRun = 0.5f;
     IEnumerator IChangeSpeedRun(){
         if(TimeForChangeSpeedFromWalkToRun == 0f) TimeForChangeSpeedFromWalkToRun = 0.5f;
         float t = 0f;
@@ -273,6 +276,7 @@ public class CatControllerScript : MonoBehaviour{
             yield return null;
         }
         horizontalSpeed = SpeedRun;
+        anim.SetInteger("VelocitySpeed", 2);
     }
     private static CatControllerScript instance;
     public static CatControllerScript Instance{get => instance;}
