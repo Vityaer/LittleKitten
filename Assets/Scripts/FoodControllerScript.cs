@@ -27,7 +27,10 @@ public class FoodControllerScript : MonoBehaviour{
 	}
 	public void DeacreaseFood(float amount){
 		currentFood -= amount;
-		if(currentFood < 0f) currentFood = 0f;
+		if(currentFood < 0f) {
+			currentFood = 0f;
+			CatControllerScript.Instance.StartCalcification();
+		}
 		UpdateUI();
 	}
 	void UpdateUI(){

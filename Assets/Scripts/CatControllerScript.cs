@@ -41,8 +41,6 @@ public class CatControllerScript : MonoBehaviour{
     }
     void Start(){
         coroutineInaction  = StartCoroutine(IChechInaction());
-        timerForRun = timeForRun;
-    	coroutineWalkToRun = StartCoroutine(IChechRun());
     }
     void Update(){
     	GroundCheck();
@@ -52,17 +50,20 @@ public class CatControllerScript : MonoBehaviour{
     	if(Input.GetKeyDown(KeyCode.D)){
 			if(isFacingRight == false) Flip();
     	}
+        
+
     	if(Input.GetKey(KeyCode.A)){
-            moveVector.x = swimFlag ? -SpeedSwim.x : -horizontalSpeed;
+            moveVector.x = swimFlag ? -SpeedSwim.x : -GetSpeedMove();
             speedFlag = true;
 		}
         if(Input.GetKey(KeyCode.D)){
-            moveVector.x = swimFlag ? SpeedSwim.x : horizontalSpeed;
+            moveVector.x = swimFlag ? SpeedSwim.x : GetSpeedMove();
             speedFlag = true;
         }
     	if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D)){
             moveVector.x = 0f;
             speedFlag = false;
+            anim.SetInteger("VelocitySpeed", 0);
         }
         wMove();
         if ((grounded || swimFlag) && Input.GetKeyDown(KeyCode.Space)){
@@ -100,6 +101,20 @@ public class CatControllerScript : MonoBehaviour{
         	anim.SetBool("Inaction", false);
         }
    
+    }
+    float resultHorizontalSpeed = 0f;
+    float GetSpeedMove(){
+        resultHorizontalSpeed = 0f;
+        if(!swimFlag && grounded){
+            if(Input.GetKey(KeyCode.LeftShift)){
+                anim.SetInteger("VelocitySpeed", 2);
+                resultHorizontalSpeed = SpeedRun;
+            }else{
+                anim.SetInteger("VelocitySpeed", 1);
+                resultHorizontalSpeed = SpeedWalk;
+            }
+        }
+        return resultHorizontalSpeed;
     }
     void wMove(){
         anim.SetBool("Speed", speedFlag);
@@ -158,9 +173,6 @@ public class CatControllerScript : MonoBehaviour{
     Coroutine coroutineInaction = null;
 	bool statusInaction = true;
 	void StartStatusInaction(){
-        if(coroutineChangeSpeed != null)
-            StopCoroutine(coroutineChangeSpeed);
-        coroutineChangeSpeed = null;
         speedFlag = false;
 		statusInaction = true;
 		anim.SetBool("Inaction", true);
@@ -249,34 +261,14 @@ public class CatControllerScript : MonoBehaviour{
             transform.position = new Vector2(xPos, transform.position.y); // плавное выравнивание по центру лестницы
         }
     }
-    float timerForRun;
-    Coroutine coroutineWalkToRun = null, coroutineChangeSpeed = null;
-    IEnumerator IChechRun(){
-        while(inGame){
-            if((speedFlag == true) && (grounded == true)){
-                if(timerForRun > 0){
-                    timerForRun -= Time.deltaTime;
-                    if(timerForRun <= 0f)
-                        coroutineChangeSpeed = StartCoroutine(IChangeSpeedRun());
-                }
-            }else{
-                timerForRun = timeForRun;
-                horizontalSpeed = SpeedWalk;
-		        anim.SetInteger("VelocitySpeed", 1);
-            }
-            yield return null;
+    public void StartCalcification(){
+        this.enabled = false;
+        if(coroutineInaction != null){
+            StopCoroutine(coroutineInaction);
+            coroutineInaction = null;
         }
-    }
-    IEnumerator IChangeSpeedRun(){
-        if(TimeForChangeSpeedFromWalkToRun == 0f) TimeForChangeSpeedFromWalkToRun = 0.5f;
-        float t = 0f;
-        while(t <= 1f){
-            horizontalSpeed = Mathf.Lerp(SpeedWalk, SpeedRun, t); 
-            t += Time.deltaTime * (1f/TimeForChangeSpeedFromWalkToRun);
-            yield return null;
-        }
-        horizontalSpeed = SpeedRun;
-        anim.SetInteger("VelocitySpeed", 2);
+        anim.Play("StartCalcification");
+        gameObject.layer = LayerMask.NameToLayer("Stone");
     }
     private static CatControllerScript instance;
     public static CatControllerScript Instance{get => instance;}
